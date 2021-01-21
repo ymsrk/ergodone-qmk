@@ -5,7 +5,7 @@
 ```
 $ git clone git@github.com:ymsrk/ergodone-qmk.git
 $ cd ergodone-qmk
-$ ./setup.sh
+$ sh ./setup.sh
 $ cd qmk_firmware
 // qmk configuratorを利用して.hexファイルをqmk_firmwareに配置する。
 $ cp {ergodone_xxxxxxxxxx.hex} qmk_firmware
@@ -33,3 +33,8 @@ Left Hand
 #### 不明点があれば公式を確認  
 [qmk_firmware/keyboards/ergodone/](https://github.com/qmk/qmk_firmware/tree/master/keyboards/ergodone)
 （ただ、あまり情報はない。。。）
+
+#### QMK Configurator
+
+QMKにマージされたキーボードのキーマップをウェブ画面上から操作して新しいキーマップを作り、それをダウンロード出来るWebサービスです。
+[QMK Configurator](https://config.qmk.fm/#/mechlovin/kanu/LAYOUT_all)
