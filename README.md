@@ -8,7 +8,7 @@ $ cd ergodone-qmk
 $ sh ./setup.sh
 $ cd qmk_firmware
 // qmk configuratorを利用して.hexファイルをqmk_firmwareに配置する。
-$ cp {ergodone_xxxxxxxxxx.hex} qmk_firmware
+$ cp {ergodone_xxxxxxxxxx.hex} .
 // フラッシュモードに入るには、最初にキーボードを取り外します。次に、左側のデバイスの一番上の行で、キーボードを再接続する間、右端の2つのキーを押し続けます。
 $ ../tkg-toolkit/mac/bin/hid_bootloader_cli -mmcu=atmega32u4 {ergodone_xxxxxxxxxx.hex}
 ```
